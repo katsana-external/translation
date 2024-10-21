@@ -1,40 +1,45 @@
 {
-    "name": "orchestra/translation",
-    "description": "Translation Component for Orchestra Platform",
-    "homepage": "http://orchestraplatform.com/docs/latest/components/translation/",
-    "keywords": ["orchestra-platform", "orchestral", "laravel", "translation"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Mior Muhammad Zaki",
-            "email": "crynobone@gmail.com",
-            "homepage": "https://github.com/crynobone"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Orchestra\\Translation\\" : "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Orchestra\\Translation\\Tests\\" : "tests/"
-        }
-    },
-    "require": {
-        "php": "^7.4 || ^8.0",
-        "illuminate/translation": "^9.0"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^7.0"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "7.0-dev"
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev"
+  "name": "orchestra/translation",
+  "description": "Translation Component for Orchestra Platform",
+  "homepage": "http://orchestraplatform.com/docs/latest/components/translation/",
+  "keywords": [
+    "orchestra-platform",
+    "orchestral",
+    "laravel",
+    "translation"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mior Muhammad Zaki",
+      "email": "crynobone@gmail.com",
+      "homepage": "https://github.com/crynobone"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Orchestra\\Translation\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Orchestra\\Translation\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/translation": "^9.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "7.0-dev"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
 }
